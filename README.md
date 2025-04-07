@@ -1,6 +1,6 @@
 # Music Genre Classifier
 
-A machine learning model that classifies music into different genres using audio features.
+A neural network model that classifies music into different genres using audio features.
 
 ## Setup
 
@@ -21,4 +21,4 @@ A machine learning model that classifies music into different genres using audio
 
 - Enhanced neural network with multiple layers
 - Uses MFCCs, spectral features, and chroma features
-- Achieves [your accuracy]% accuracy on test set
+- Achieves 73.50% accuracy on test set

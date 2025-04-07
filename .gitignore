@@ -22,38 +22,32 @@ wheels/
 
 # Virtual Environment
 venv/
-ENV/
 env/
+ENV/
 .env
+.venv
+pythonenv*
 
-# Dataset and model files
-data/
-*.wav
-*.mp3
-*.npy
-*.csv
-*.h5
-*.pkl
-*.model
-*.tar.gz
-*.zip
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
+.DS_Store
 
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb
 
-# IDE specific files
-.idea/
-.vscode/
-*.swp
-*.swo
-.DS_Store
-*.code-workspace
-
-# Logs
-*.log
-logs/
-tensorboard_logs/
+# Audio files
+*.wav
+*.mp3
+*.ogg
+*.flac
+data/genres_original/
+data/raw/
 
 # Local development settings
 .env.local
@@ -61,10 +55,11 @@ tensorboard_logs/
 .env.test.local
 .env.production.local
 
-# Kaggle
-kaggle.json
-.kaggle/
+# Streamlit
+.streamlit/secrets.toml
 
-# System Files
-.DS_Store
-Thumbs.db
+# Keep these files for deployment
+!requirements.txt
+!models/enhanced_model.h5
+!data/processed/enhanced_label_encoder_classes.npy
+!data/processed/enhanced_scaler.npy

@@ -1,21 +1,24 @@
-# Music Genre Classification System
+# Music Genre Classifier
 
-A simple web-based music genre classification system using neural networks and Streamlit.
-
-## Features
-- Upload audio files (WAV, MP3)
-- Classify music into different genres
-- Simple and intuitive web interface
+A machine learning model that classifies music into different genres using audio features.
 
 ## Setup
+
 1. Install dependencies:
 ```pip install -r requirements.txt```
 
-2. Run the application:
-```streamlit run app.py```
+2. Run the Streamlit app:
+```streamlit run src/app/streamlit_app.py```
 
-## Project Structure
-- `app.py`: Main Streamlit application
-- `src/`: Source code directory
-- `data/`: Dataset and model files
-- `models/`: Trained model files
+## Features
+
+- Classifies music into 10 different genres
+- Uses advanced audio feature extraction
+- Real-time classification through web interface
+- Supports WAV audio files
+
+## Model Architecture
+
+- Enhanced neural network with multiple layers
+- Uses MFCCs, spectral features, and chroma features
+- Achieves [your accuracy]% accuracy on test set

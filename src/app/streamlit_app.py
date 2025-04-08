@@ -112,7 +112,7 @@ def main():
     # Add sidebar with information
     st.sidebar.title("About")
     st.sidebar.info(
-        "This app uses an enhanced machine learning model to classify music into different genres. "
+        "This web-app uses a neural network model to classify music into different genres. "
         "The model achieves 73.50% accuracy on the test set.\n\n"
         "Supported genres:\n"
         "- Blues\n"
@@ -198,10 +198,6 @@ def main():
 
     # Add footer
     st.markdown("---")
-    st.markdown(
-        "Model accuracy: 73.50% on test set. "
-        "Created by Nisha Shetty"
-    )
 
 if __name__ == "__main__":
     main()
